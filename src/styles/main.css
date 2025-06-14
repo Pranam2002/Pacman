@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #111;
+  font-family: 'Courier New', monospace;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.contribution-cell {
+  width: 15px;
+  height: 15px;
+  background-color: #1e1e1e;
+  transition: all 0.2s ease;
+}
+
+.contribution-active {
+  background-color: #00ff00; /* bright green */
+}
+
+.empty {
+  background-color: #1e1e1e; /* darker gray for inactive cells */
+}
+
+.pacman {
+  background-color: transparent !important;
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+}
+
