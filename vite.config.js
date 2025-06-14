@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: '.',
-  base: '/contribution-pacman/',
+  base: '/Pacman/',
   server: {
     open: true,
   }
