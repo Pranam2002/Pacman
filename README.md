@@ -1,26 +1,40 @@
 # GitHub Pacman Contributions Game 🕹️
 
-A fun animated project where Pacman eats your GitHub contributions on a grid — inspired by the classic game and the GitHub contribution graph.
+A fun animated project where Pacman eats your GitHub contributions on a grid — Inspired by the classic retro arcade game and the GitHub contribution graph.
 
 This project visualizes your GitHub contribution graph as a grid and animates a Pacman character moving through it, gobbling up the cells where you made commits. Once it finishes, the grid resets and starts again — forever hungry.
 
+![Pacman eating contributions](demo.gif)
 
 ---
 
 ## 🚀 Live Demo
 
-## 🚀 How It Works
+---
 
-- Fetches your GitHub contribution data using GitHub's GraphQL API.
-- Animates Pacman to eat contributions from left to right.
-- Loops infinitely with restored contributions.
+## 🚀 Features
 
-## 📦 Setup
+- 🔄 Loops through your contribution graph endlessly
+- 🟨 Pacman skips empty squares, munches only green ones
+- 🎨 Fully animated using CSS & JavaScript
+- 🧠 Uses GitHub GraphQL API for live data
 
-1. Clone the repo
-2. Run:
+---
+
+## 📦 Tech Stack
+
+- ⚡ [Vite](https://vitejs.dev/) – blazing fast frontend dev tool
+- 🧩 Vanilla JavaScript + CSS
+- 🔐 GitHub GraphQL API v4
+- 💾 dotenv for environment management
+
+---
+
+## 🛠️ Setup Instructions
 
 ```bash
+git clone https://github.com/Pranam2002/Pacman.git
+cd Pacman
 npm install
+cp .env.example .env
 npm run dev
-
